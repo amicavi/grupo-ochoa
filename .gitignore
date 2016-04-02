@@ -9,7 +9,7 @@ prestashop/config/settings.*.php
 prestashop/admin-dev/autoupgrade/
 prestashop/cache/*
 prestashop/config/xml/*.xml
-prestashop//log/*
+prestashop/log/*
 prestashop/*sitemap.xml
 prestashop/themes/*/cache/
 prestashop/modules/*/config*.xml
