@@ -1,0 +1,50 @@
+@import "variables";
+
+#newsletter-input{
+	border-width: 0;
+	font-size: 13px;
+	font-weight: 300;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #333;
+	&:focus{
+		border-color: $theme-color-one;
+	}
+}
+#newsletter_block_left .form-group {
+	position: relative;
+}
+#newsletter_block_left .btn {
+	position: absolute;
+	top: 2px;
+	bottom: 2px;
+	right: 2px;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 0 10px;
+	font-family: 'Open Sans';
+	line-height: 38px;
+	padding: 0;
+	width: 41px;
+	text-align: center;
+}
+#newsletter_block_left p {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 17px;
+}
+#newsletter_block_left .btn:before{
+	display: inline-block;
+	content: "\f0e0";
+	font-family: fontAwesome;
+	width: 100%;
+}
+@media (min-width:768px) and (max-width: 991px) {
+	#newsletter_block_left p{
+		font-size: 12px;
+	}
+	#newsletter-input{
+		font-size: 10px;
+	}
+}

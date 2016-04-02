@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,iDAAiD;EAChD,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,MAAM;;AAEnB,qDAAsD;EACrD,OAAO,EAAE,YAAY;;AAEtB,0EAA0E;EACzE,OAAO,EAAC,IAAI;;AAEb,8BAA+B;EAC9B,OAAO,EAAE,IAAI;;AAEd,2DAA2D;EAC1D,0CAA0C;IACzC,OAAO,EAAE,CAAC;;EAEX,iDAAiD;IAChD,MAAM,EAAC,IAAI",
+"sources": ["../../../sass/modules/blockviewed/blockviewed.scss"],
+"names": [],
+"file": "blockviewed.css"
+}

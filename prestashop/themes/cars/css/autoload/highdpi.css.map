@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,uGAAwG;EACvG,WAAY;IACX,SAAS,EAAE,GAAG;;EAEf,QAAS;IACR,gBAAgB,EAAE,4BAA4B;IAC9C,uBAAuB,EAAC,SAAS;IACjC,oBAAoB,EAAC,SAAS;IAC9B,kBAAkB,EAAC,SAAS;IAC5B,eAAe,EAAC,SAAS",
+"sources": ["../../sass/autoload/highdpi.scss"],
+"names": [],
+"file": "highdpi.css"
+}

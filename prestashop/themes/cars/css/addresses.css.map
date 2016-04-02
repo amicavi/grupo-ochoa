@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAKA,uCAAwC;EACtC,MAAM,EAAE,QAAQ;;AAClB,2BAA4B;EAC1B,MAAM,EAAE,QAAQ;;AAChB,oCAAqC;EACnC,MAAM,EAAE,QAAQ;;AAEpB,0BAA2B;EACzB,MAAM,EAAE,YAAY;;AACpB,4BAA6B;EAC3B,MAAM,EAAE,aAAa;;AACzB,0BAA0B;EACzB,UAAU,EAAE,KAAK",
+"sources": ["../sass/addresses.scss"],
+"names": [],
+"file": "addresses.css"
+}

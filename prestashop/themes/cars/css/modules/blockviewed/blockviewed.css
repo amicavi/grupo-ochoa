@@ -1,0 +1,21 @@
+#viewed-products_block_left .products-block-image {
+  display: block;
+  text-align: center; }
+
+#viewed-products_block_left .products-block-image img {
+  display: inline-block; }
+
+#viewed-products_block_left li, #viewed-products_block_left .block_content {
+  padding: 10px; }
+
+#viewed-products_block_left h5 {
+  display: none; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #viewed-products_block_left .block_content {
+    padding: 0; }
+
+  #viewed-products_block_left .products-block-image {
+    border: none; } }
+
+/*# sourceMappingURL=blockviewed.css.map */

@@ -1,0 +1,260 @@
+.easycarousels .hook_content {
+	display: none;
+}
+.easycarousels .hook_content.active {
+	display: block;
+}
+.carousel-item {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 15px;
+	background: #FAFAFA;
+	margin-bottom: 15px;
+}
+.carousel-header {
+	position: relative;
+}
+.easycarousels i.icon {
+	cursor:pointer;
+	margin: 0 3px;
+}
+.carousel-header .carousel-name {
+	font-size: 1.3em;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+.easycarousels > .form-horizontal {
+	margin-bottom: 20px;
+}
+/* hook settings */
+form.settings {
+	margin-bottom: 20px;
+}
+.hook-settings {
+	margin: 5px 0;
+	color: #999;
+}
+.callSettings {
+	margin: 0 5px;
+	position: relative;
+}
+.callSettings.active:before, .callSettings.active:after{
+	content: '';
+	display:block;
+	height: 0px;	
+	border: 15px solid transparent;
+	border-top: 0;
+	border-bottom: 15px solid #DDD;	
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+	margin-top: 10px;
+	z-index: 1;
+}
+h3 .hide-settings {
+	color: #999;
+	float: right;
+	padding: 7px;
+	cursor: pointer;
+}
+.callSettings.active:after{
+	border-bottom: 15px solid #FFF;	
+	margin-top: 11px;
+}
+.easycarousels a:hover, .easycarousels a:focus{
+	text-decoration: none!important;
+}
+.chk-action {
+	margin-right: 10px;
+}
+.exc-group label {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#settings-content h4 {
+	padding: 7px 20px;
+	margin: 10px -20px;
+	background: #FAFAFA;	
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+}
+#settings-content .p-footer {
+	margin: 10px -20px -20px;	
+	background: #FAFAFA;	
+}
+
+.bootstrap label.label-checkbox {
+	font-weight: normal;
+}
+.label-checkbox input[type="checkbox"], .help-block input[type="checkbox"]{
+	margin: -1px 0 0 0;
+	vertical-align: middle;
+}
+
+.bootstrap .easycarousels .carousel-box {
+  float: left;
+  margin: 6px 5px 0 0;
+}
+.carousel-box[value="0"] {
+	display: none;
+}
+
+/* activate */
+.activateCarousel {
+	padding: 1px 0;
+	margin: 0 15px;	
+	float:left;
+}
+.bootstrap .activateCarousel:focus {
+	color: #FFF;
+}
+.activateCarousel i {
+	display:none;
+}
+.activateCarousel.action-enabled i.icon-check {
+	display:inline-block;
+}
+.activateCarousel.action-disabled i.icon-remove {
+	display:inline-block;
+}
+
+/* actions */
+.actions label {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #999;
+	padding-right: 10px;	
+	border-right: 1px solid #CCC;	
+	float: left;
+	margin: 7px 0 5px 0;
+}
+.actions label > input[type="checkbox"] {
+  margin-right: 3px;
+}
+.carousel-item  .actions .scrollUp,  .carousel-item.open .actions .editCarousel{
+	display:none;
+}
+.carousel-item.open .actions .scrollUp {
+	display: inline-block;	
+	border-radius: 3px 0 0 3px!important;
+}
+.bootstrap .easycarousels .bulk-actions, .bootstrap .easycarousels .addCarousel {
+	margin: 10px 5px 0 0;
+}
+
+/* drag */
+.easycarousels i.icon.dragger {		
+	color: #DDD;
+	float: right;
+	margin: 1px 0 0 10px;
+	cursor: url(../img/grab.cur), auto;
+}
+.easycarousels i.dragger:hover {
+	color: #999;
+}
+.easycarousels i.dragger:active {
+	cursor: url(../img/grabbing.cur), auto;
+}
+.easycarousels .new_position_placeholder {
+	background: #FFF;
+	border-radius: 5px;
+	border: 1px dashed #71B238;
+	height: 59px;
+	margin: 0 0 15px 0;
+}
+.position-settings .new_position_placeholder {
+	margin: 5px 0;
+	height: 51px
+}
+
+/* form */
+.carousel-item .carousel-details {
+	margin-top: 15px;
+	border-top: 1px solid #ddd;
+	padding-top: 15px;
+}
+.bootstrap .carousel-item .has-lang-selector {
+	padding-right: 55px;
+	position: relative;
+}
+.has-lang-selector .languages {
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+.bootstrap h4.settings-title {
+	background: #EEE;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.bootstrap.easycarousels .switch label {
+	line-height: 27px;
+	font-size: 0.9em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.bootstrap.easycarousels .switch {
+	height: 27px;
+}
+.panel .p-footer {
+	margin: 10px -15px -15px;
+	border-top: 1px solid #DDD;
+	background: #EEE;
+	padding: 15px;
+	clear: both;
+	border-radius: 0 0 5px 5px;
+}
+
+.alert-warning i.icon{
+	cursor: pointer;
+	float: right;
+	line-height: 1.3;
+	opacity: 0.5;
+}
+
+/* import */
+.importer-info {
+	font-size: 18px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+.importer form {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+/* module positions */
+.bootstrap #settings-content .module_col_position{
+	width: 50px;
+	text-align: center;
+}
+.bootstrap .module_list .module_list_item.disabled {
+	background: #EEE;
+}
+.module_list_item.disabled .infoblock {
+	opacity: 0.7;
+}
+.module_list_item .actions-enabled, .module_list_item.disabled .actions-disabled {
+	display: block;
+}
+.bootstrap .btn.btn-default i.on {
+	color: #71B238;
+}
+.bootstrap .btn.btn-default:hover i.on {
+	color: #FFF;
+}
+.module_list_item .actions-disabled, .module_list_item.disabled .actions-enabled {
+	display: none;
+}
+.bootstrap #settings-content .module_col_position .positions, .bootstrap #settings-content .module_list_item.draggable{
+	cursor: url(../img/grab.cur), move;
+}
+.bootstrap #settings-content .module_col_position .positions:active, .bootstrap #settings-content .module_list_item.draggable:active{
+	cursor: url(../img/grabbing.cur), move;
+}

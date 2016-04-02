@@ -1,0 +1,15 @@
+.shop-phone {
+  display: block;
+  float: left;
+  padding-left: 15px;
+  border-top-style: solid; }
+
+@media screen and (max-width: 767px) {
+  .shop-phone {
+    font-size: 11px; } }
+@media screen and (max-width: 480px) {
+  .shop-phone {
+    border-top-width: 1px;
+    width: 100%; } }
+
+/*# sourceMappingURL=blockcontact.css.map */

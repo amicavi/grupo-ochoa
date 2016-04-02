@@ -1,0 +1,118 @@
+@import "variables";
+
+header .nav .header_user_info{
+	float: left;
+	position: relative;
+	z-index: 102;
+	padding: 15px 30px 15px 10px;
+}
+
+#drop_content_user span:hover{
+	text-decoration:underline;
+}
+
+.header_user_info li{
+	float: left;
+	padding: 0 0 0 20px;
+}
+.header_user_info li a {
+	position: relative;
+	display: block;
+	padding: 0 20px 0 0;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+.header_user_info li a:before{
+	font-family: 'FontAwesome';
+	content: "\f007";
+	margin-right: 5px;
+}
+.header_user_info li a.wish_link:before{
+	content: "\f004";
+}
+.header_user_info li a.shop_cart_user:before{
+	content: "\f07a";
+}
+.header_user_info li a.delivery:before{
+	content: "\f0d1";
+}
+.header_user_info li a.log:before{
+	content: "\f090";
+}
+#drop_links {
+	display: block;
+}
+@media (min-width: 992px){
+	#drop_links {
+		display: none;
+	}
+	#drop_content_user{
+		background: none;
+		display: block !important;
+	}
+	.header_user_info{
+		border:none;
+	}
+}
+@media (min-width: 1200px){
+	.header_user_info li:first-child a{
+		border-left-style: solid;
+		border-left-width: 1px;
+		padding-left: 20px;
+	}
+}
+@media (max-width: 991px){
+	header .nav .header_user_info{
+		padding-right: 0;
+		padding-left: 15px;
+	}
+	#drop_links {
+		position: relative;
+		white-space: nowrap;
+		padding: 0 15px 0 0;
+	}
+	#drop_links:after{
+		font-family: "FontAwesome";
+		font-size: 12px;
+		line-height: 12px;
+		padding-left: 5px;
+		content: "\f0d7";
+	}
+	.header_user_info li{
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+	.header_user_info li:last-child a,
+	.header_user_info li a{
+		border:none;
+	}
+	.opened #drop_links:after{
+		content: "\f0d8";
+	}
+	#drop_content_user{
+		z-index: 2;
+		line-height: 24px;
+		display: none;
+		position: absolute;
+		top: 100%;
+		margin-top: 5px;
+		left: 30px;
+		width: auto;
+		min-width: 100%;
+		white-space: nowrap;
+		z-index: 2;
+		padding: 10px 15px;
+		text-align: left;
+		border-style: solid;
+		border-width: 1px;
+	}
+	.header_user_info li a{
+		display: block;
+		padding: 0;
+		border-right-width: 0;
+	}
+	.header_user_info li a:after{
+		display: none;
+	}
+}

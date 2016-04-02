@@ -1,0 +1,157 @@
+.amazing-search .styled-select select {
+  display: none !important; }
+
+.amazing-search__form {
+  height: 100%; }
+
+.amazing-search {
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  bottom: 0;
+  float: none !important;
+  padding: 0;
+  line-height: 1;
+  font-size: 14px;
+  height: 50px; }
+
+.fixedHeader .amazing-search {
+  height: 100%;
+  top: 0; }
+
+.search_query {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 15px;
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 50px;
+  text-align: center;
+  outline: none;
+  font-size: 0;
+  -webkit-transition: width .5s,background .5s;
+  transition: width .5s,background .5s; }
+
+.fake-button, .button-search-menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  text-align: center;
+  cursor: pointer; }
+
+.button-search-menu {
+  border: none;
+  z-index: 2; }
+
+.fake-button:before, .button-search-menu:before {
+  font-family: fontAwesome;
+  content: "\f002";
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 14px;
+  width: 100%;
+  margin: auto 0; }
+
+.amazingsearch_result {
+  position: absolute;
+  z-index: 25;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  margin-top: 15px;
+  display: none;
+  background-color: #FFF; }
+
+.amazingsearch_result .ajax_block_product {
+  margin-bottom: 30px;
+  width: 33.333%; }
+
+.amazingsearch_result .products_list .product-container {
+  float: left; }
+
+.products_list_block .header {
+  display: none; }
+
+.amazing-search dt.option {
+  padding-right: 58px;
+  line-height: 48px;
+  height: 100%;
+  border: none; }
+
+.fixedHeader .amazing-search dt.option,
+.fixedHeader .amazing-search i.toggle {
+  line-height: 58px; }
+
+.amazing-search .dl {
+  height: 100%; }
+
+.amazing-search .styled-select, .amazing-search select {
+  display: none;
+  max-width: none;
+  position: relative;
+  z-index: 3; }
+
+.amazing-search select {
+  outline: none;
+  border: none;
+  height: 100%;
+  height: calc(100% - 2px); }
+
+@media screen and (max-width: 767px) {
+  .amazing-search .styled-select, .amazing-search select {
+    display: table; } }
+.search-active-menu .styled-select,
+.search-active-menu select {
+  display: table; }
+
+.amazing-search.search-active-menu {
+  left: 0; }
+
+.search-active-menu .search_query {
+  padding-right: 56px;
+  width: 100%;
+  background: #fff;
+  font-size: 14px;
+  border-bottom: 2px solid #EE3124; }
+
+@media screen and (max-width: 767px) {
+  .amazing-search dt.option {
+    line-height: 46px; }
+
+  .amazing-search {
+    position: static;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 48px; }
+
+  .search_query {
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 2px solid #EE3124;
+    background: #fff;
+    height: 48px; }
+
+  .amazing-search__form {
+    position: relative; }
+
+  .button-search-menu {
+    height: 48px; }
+
+  .amazingsearch_result {
+    left: 15px;
+    right: 15px; } }
+@media screen and (max-width: 640px) {
+  .amazingsearch_result .ajax_block_product {
+    width: 50%; } }
+@media screen and (max-width: 480px) {
+  .amazingsearch_result .ajax_block_product {
+    width: 100%; } }

@@ -1,0 +1,363 @@
+@import "variables";
+
+
+#pagination {
+    padding: 0;
+    margin: 0 0 0 auto;
+}
+
+#pagination_bottom {
+    padding: 0;
+}
+
+.compare-form {
+    display: table-cell;
+    float: left;
+}
+
+.pagination.-box{
+    display: table;
+    text-align: right;
+    margin: 0 0 0 auto;
+    position: relative;
+    vertical-align: top;
+}
+
+.sortPagiBar {
+    font-size: 0;
+    display: table;
+}
+
+.sortPagiBar>* {
+    padding: 20px 15px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    font-size: 13px;
+    border-color: #deddd8;
+}
+
+.content_sortPagiBar:before,
+.content_sortPagiBar:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#productsSortForm {
+    position: relative;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+#productsSortForm .chosen-container {
+    max-width: 110px;
+}
+
+#productsSortForm select {
+    max-width: 50px;
+    display: inline-block;
+    height: 25px;
+}
+
+#productsSortForm .selector {
+    float: left;
+}
+
+.sortPagiBar .nbrItemPage {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+}
+
+.sortPagiBar .nbrItemPage select {
+    display: inline-block;
+    height: 25px;
+    padding: 0;
+}
+
+.sortPagiBar .nbrItemPage .clearfix > span {
+    display: none;
+}
+
+.sortPagiBar .nbrItemPage #uniform-nb_item {
+    float: left;
+}
+
+.content_sortPagiBar label {
+    font-weight: bold;
+    padding: 0px 5px 0px 0;
+    line-height: 25px;
+    text-transform: uppercase;
+    display: table-cell;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-spacing: inherit;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.content_sortPagiBar {
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.chosen-container {
+    vertical-align: top;
+}
+
+.chosen-single {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 24px 0 10px;
+}
+
+.chosen-single div {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.chosen-single span {
+    font-size: 12px;
+}
+
+.instant_search #productsSortForm {
+    display: none;
+}
+
+.display,
+.display_m {
+    display: table;
+    text-align: left;
+}
+
+.compare-form .btn-default {
+    height: 25px;
+    line-height: 23px;
+    padding: 0px 5px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-width: 1px;
+}
+
+.compare-form .btn-default i {
+    padding-right: 3px;
+}
+
+.display li {
+    position: relative;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#grid {
+    margin-right: 2px;
+}
+
+.display li a {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: none;
+}
+
+#list a {
+    height: 15px;
+}
+
+#grid a:after,
+#grid a:before,
+#grid span:after,
+#grid span:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+}
+
+#grid a:after {
+    top: 0;
+    left: 0;
+}
+
+#grid a:before {
+    top: 0;
+    right: 0;
+}
+
+#grid span:after {
+    bottom: 0;
+    left: 0;
+}
+
+#grid span:before {
+    bottom: 0;
+    right: 0;
+}
+
+#list a:after,
+#list a:before,
+#list span:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+}
+
+#list a:after {
+    top: 0;
+    left: 0;
+}
+
+#list a:before {
+    bottom: 0;
+    left: 0;
+}
+
+#list span:after,
+.display_m #list span:after {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+}
+
+.display .selected a {
+    cursor: default;
+}
+
+.top-pagination-content,
+.bottom-pagination-content {
+    position: relative;
+    padding: 20px 20px 0 0;
+    vertical-align: top;
+    margin: 0 0 0 auto;
+    display: table-cell;
+    text-align: right;
+}
+
+.top-pagination-content .showall,
+.bottom-pagination-content .showall {
+    display: none;
+}
+
+.top-pagination-content,
+.bottom-pagination-content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.top-pagination-content li,
+.bottom-pagination-content li {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.top-pagination-content li > a,
+.top-pagination-content li > span,
+.bottom-pagination-content li > a,
+.bottom-pagination-content li > span {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 22px;
+    height: 22px;
+}
+
+.content_sortPagiBar {
+    height: 67px;
+    width: 100%;
+}
+
+.pagination_next,
+.pagination_previous {
+    display: none !important;
+}
+
+.top-pagination-content li > a span,
+.top-pagination-content li > span span,
+.bottom-pagination-content li > a span,
+.bottom-pagination-content li > span span {
+    display: block;
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 12px;
+    min-width: 23px;
+}
+
+.top-pagination-content .active > span,
+.bottom-pagination-content .active > span,
+.top-pagination-content li > a:hover span,
+.bottom-pagination-content li > a:hover span {
+    background: none;
+    border: none;
+}
+
+.top-pagination-content .active > span span,
+.bottom-pagination-content .active > span span {
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+.top-pagination-content .compare-form,
+.bottom-pagination-content .compare-form {
+    float: right;
+}
+
+.top-pagination-content .product-count,
+.bottom-pagination-content .product-count {
+    padding: 11px 0 0 0;
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .content_sortPagiBar {
+        height: auto;
+    }
+    #productsSortForm .chosen-container {
+        max-width: 67px;
+    }
+    .sortPagiBar {
+        padding: 0;
+        position: static;
+    }
+    .sortPagiBar .compare-form {
+        float: none;
+        display: table-cell;
+    }
+    .top-pagination-content,
+    .bottom-pagination-content {
+        padding: 10px 10px 0 0;
+    }
+    .content_sortPagiBar .sortPagiBar > * {
+        padding: 10px;
+    }
+}

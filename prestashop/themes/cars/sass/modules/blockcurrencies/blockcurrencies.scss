@@ -1,0 +1,55 @@
+@import "variables";
+
+#currencies-block-top {
+	position: relative;
+	float: right;
+	z-index: 103;
+	padding-left: 0;
+}
+#currencies-block-top div.current {
+	cursor: pointer;
+	white-space: nowrap;
+}
+#currencies-block-top div.current:after {
+	font-family: "FontAwesome";
+	font-size: 12px;
+	padding-left: 5px;
+	line-height: 12px;
+	content: "\f0d7";
+}
+#currencies-block-top div.current.active:after{
+	content: "\f0d8";
+}
+#currencies-block-top ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	margin-top: 5px;
+	right: 15px;
+	width: auto;
+	min-width:100%;
+	white-space: nowrap;
+	z-index: 2;
+	padding: 10px 15px;
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+}
+#currencies-block-top ul li {
+	line-height: 28px;
+	font-size: 12px;
+	position: relative;
+}
+#currencies-block-top ul li a,
+#currencies-block-top ul li > span {
+	display: block; 
+}
+@media (min-width: 1200px){
+	#currencies-block-top div.current{
+		border-right-style: solid;
+		border-right-width: 1px;
+		padding: 0 15px 0 0;
+	}
+}
+
+

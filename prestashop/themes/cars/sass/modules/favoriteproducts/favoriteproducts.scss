@@ -1,0 +1,67 @@
+@import "variables";
+
+#favoriteproducts_block_account .favoriteproduct {
+  position: relative;
+  margin-bottom: 14px;
+  padding: 12px 8px;
+  border: 1px solid #d6d4d4;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+  .favoriteproduct a.product_img_link img{
+    display: block;
+    max-width: 100%;
+  }
+ .favoriteproduct a.product_img_link {
+    border: 1px solid #d6d4d4;
+    display: block;
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+    position: relative; }
+  #favoriteproducts_block_account .favoriteproduct p.product_desc {
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0; }
+  #favoriteproducts_block_account .favoriteproduct .remove {
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+    #favoriteproducts_block_account .favoriteproduct .remove .icon {
+      cursor: pointer; }
+.favorite-wrap{
+  clear: both;
+}
+/* lnk fiche produit */
+
+ li#favoriteproducts_block_extra_add, 
+ li#favoriteproducts_block_extra_remove, 
+ li#favoriteproducts_block_extra_added, 
+ li#favoriteproducts_block_extra_removed {
+  padding-left: 30px;
+  cursor: pointer; }
+
+ li#favoriteproducts_block_extra_added {
+  display: none; }
+
+ li#favoriteproducts_block_extra_removed {
+  display: none; }
+.favoriteproduct .s_title_block{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 479px){
+  #favoriteproducts_block_account .favoriteproduct{
+    text-align: center;
+  }
+ .favoriteproduct a.product_img_link{
+    float: none;
+    border: none;
+    margin-bottom: 15px;
+  }
+  .favoriteproduct a.product_img_link img{
+    display: inline-block;
+  }
+}

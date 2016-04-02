@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,WAAY;EACV,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,IAAI;EAClB,gBAAgB,EAAE,KAAK;;AAEzB,oCAAoC;EAClC,WAAW;IACT,SAAS,EAAE,IAAI;AAGnB,oCAAoC;EAClC,WAAY;IACV,gBAAgB,EAAE,GAAG;IACnB,KAAK,EAAE,IAAI",
+"sources": ["../../../sass/modules/blockcontact/blockcontact.scss"],
+"names": [],
+"file": "blockcontact.css"
+}
