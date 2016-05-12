@@ -1,5 +1,6 @@
 .styled-select dl i.toggle:hover, .styled-select:not(.mobile) li:hover {
-  background: #EE3124; }
+  background: #EE3124;
+  color: #fff; }
 
 /* bg */
 #pagenotfound .pagenotfound, #pagenotfound h2, #pagenotfound h1, #pagenotfound .pagenotfound p, #pagenotfound .pagenotfound .buttons a {
@@ -24,11 +25,17 @@ header .nav {
     border-right-width: 1px; }
 
 .sf-menu > li > ul > li:hover {
-  background: #EE3124; 
+  background: #EE3124; }
+
+.sf-menu > li > ul > li:hover > a {
   color: #fff; }
 
 .banner-top .custom-html {
-  background: #EE3124; }
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+  background: rgba(0, 0, 0, 0.4); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.4)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.4)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.4)); /* For Firefox 3.6 to 15 */ }
 
 .fake-button, .button-search-menu, .bg-yellow, .post-date {
   background: #D00202;
@@ -44,8 +51,11 @@ body, .post-description {
 .post-thumbnail .post-date {
   color: #000; }
 
-/*.sf-menu > li > a:hover, h1, h2, h3, h4, h5, h6 {
-  color: #000; }*/
+.sf-menu > li > a:hover, h1, h2, h3, h4, h5, h6 {
+  color: #000; }
+
+#block_top_menu > ul > li > a:hover {
+  color: #fff; }
 
 .fullwidth-banner, .banner-top .custom-html {
   color: #fff; }
@@ -68,7 +78,7 @@ body, .post-description {
   color: #fff; }
   
 .btn.btn-default.yellow-text-btn {
-  color: #EE3124; }
+  color: #fff; }
 
 .btn.btn-default.yellow-text-btn:hover {
   color: #fff; }
@@ -117,7 +127,7 @@ a:hover, a:active, a:focus {
 
 .post-additional-info {
   border-color: #EE3124;
-  color: #000; }
+  color: #fff; }
 
 /* btn */
 input.button_mini,
@@ -157,7 +167,7 @@ span.exclusive_large,
 span.exclusive_large_disabled,
 .btn.btn-default, .black-btn,
 .list .btn-square {
-  border-color: #D00202;
+  border-color: #EE3124;
   color: #000; }
 
 a.button_mini:before,
@@ -178,6 +188,7 @@ span.exclusive:before,
 span.exclusive_large:before,
 span.exclusive_large_disabled:before,
 .btn.btn-default:before, .black-btn:before,
+.btn.btn-default:hover,
 input.button_mini:hover,
 input.button_small:hover,
 input.button:hover,
@@ -322,7 +333,8 @@ div.radio span {
   color: #000; }
 
 #more_info_tabs a:hover, #more_info_tabs a.selected {
-  background: #EE3124; }
+  background: #EE3124;
+  color: #fff; }
 
 .pb-left-column .span_link {
   color: #EE3124; }
@@ -419,13 +431,13 @@ div.radio span {
 .bottom-pagination-content ul.pagination li > span,
 .top-pagination-content ul.pagination li > a:hover,
 .bottom-pagination-content ul.pagination li > a:hover {
-  color: #000; }
+  color: #EE3124; }
 
 .top-pagination-content ul.pagination li.active > span span,
 .bottom-pagination-content ul.pagination li.active > span span,
 .top-pagination-content ul.pagination li:hover > a span,
 .bottom-pagination-content ul.pagination li:hover > a span {
-  background: #EE3124; }
+  background: #fff; }
 
 .top-pagination-content ul.pagination li.active,
 .bottom-pagination-content ul.pagination li.active,

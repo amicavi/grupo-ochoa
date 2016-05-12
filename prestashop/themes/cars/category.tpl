@@ -55,7 +55,7 @@
 						</span>
 					</h1>
 					<!-- Category image -->
-					<div class="content_scene_cat_bg">
+					<div class="content_scene_cat_bg" style="display:none">
 						<div class="wrap-cat-description">
 							<h2 class="pink-color">
 							  {$category->name|escape:'html':'UTF-8'}
@@ -102,7 +102,7 @@
 			<ul class="clearfix">
 			{foreach from=$subcategories item=subcategory}
 				<li>
-					<div class="subcategory-image">
+					<div class="subcategory-image" style="display:none">
 						<a href="{$link->getCategoryLink($subcategory.id_category, $subcategory.link_rewrite)|escape:'html':'UTF-8'}" title="{$subcategory.name|escape:'html':'UTF-8'}" class="img">
 						{if $subcategory.id_image}
 							<img class="replace-2x" src="{$link->getCatImageLink($subcategory.link_rewrite, $subcategory.id_image, 'medium_default')|escape:'html':'UTF-8'}" alt="" width="{$mediumSize.width}" height="{$mediumSize.height}" />

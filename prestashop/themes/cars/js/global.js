@@ -25,7 +25,11 @@
 //global variables
 var responsiveflag = false;
 
+
 $(document).ready(function(){
+	$('#header img.img-responsive').bind('load', function(){
+		setTimeout(responsiveResize, 3000);
+	});
 	highdpiInit();
 	responsiveResize();
 	$(window).resize(responsiveResize);

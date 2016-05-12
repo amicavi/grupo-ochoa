@@ -183,7 +183,8 @@ textarea {
   margin-left: 50px; }
 
 .main_panel {
-  position: relative; }
+  position: relative;
+  background-color: #EE3124; }
 
 .noindex .main_panel {
   background-position: center top;
@@ -201,7 +202,7 @@ textarea {
 
 #columns {
   position: relative;
-  padding-bottom: 60px; }
+  padding-bottom: 45px; }
 
 .tabs_main .tab-content {
   clear: both;
@@ -2259,7 +2260,9 @@ label[for="id_state"] {
 
 .blackgraund > .container {
   position: relative;
-  padding-bottom: 70px; }
+  padding-bottom: 70px; 
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .block-home {
   margin-top: 85px; }

@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+  #header_logo img {
+      max-width: 150px;
+      max-height: 50px;
+  }
   .amazing-search .styled-select {
     opacity: 0;
     visibility: hidden;
@@ -7,13 +11,14 @@
 
   .search-active-menu .styled-select {
     opacity: 1;
-    visibility: visible; }
+    /*visibility: visible;*/ }
 
   #header, .main_panel, #header_logo img {
     -webkit-transition: all .36s ease;
     -o-transition: all .36s ease;
     -moz-transition: all .36s ease;
-    transition: all .36s ease; }
+    transition: all .36s ease; 
+  }
 
   #header_logo {
     -webkit-transition: width .3s;

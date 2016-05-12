@@ -14,7 +14,7 @@
 }
 .banners-one-by-one .banner-item , .banner-item-content .banner-img{
 	display: inline-block;
-	max-width: 100%;
+	max-width: 100%; 
 }
 .html-over .custom-html {
 	display: table;

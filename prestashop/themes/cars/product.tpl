@@ -363,6 +363,9 @@
 							</a>
 							<span class="clearfix"></span>
 						</div>
+						{else}
+						<label for="quantity_wanted"></label>
+						<input type="number" min="1" name="qty" id="quantity_wanted" style="display: none;" class="text" value="{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}" />
 						{/if}
 						<!-- minimal quantity wanted -->
 						<p id="minimal_quantity_wanted_p"{if $product->minimal_quantity <= 1 || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>

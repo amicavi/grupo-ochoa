@@ -156,7 +156,8 @@ ul li.category-thumbnail > div, ul li#category-thumbnail > div {
   float: none !important;
   padding: 0;
   line-height: 1;
-  font-size: 14px; }
+  font-size: 14px; 
+  display: none; }
 
 .sf-menu li.sf-search input {
   padding: 0 15px;
@@ -306,7 +307,15 @@ ul li.category-thumbnail > div, ul li#category-thumbnail > div {
     font-size: 20px;
     line-height: 40px;
     cursor: pointer;
-    margin-bottom: 20px; }
+    /*margin-bottom: 20px*/;
+    margin-top: 59px; }
+
+  .sf-menu > li > ul > li {
+    padding: 0px 0px 0px 15px; }
+
+  .sf-menu > li > ul > li > a {
+    padding: 0px;
+    border-right-style: none; }
 
   .cat-title:after {
     display: block;
